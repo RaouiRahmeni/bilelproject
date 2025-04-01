@@ -1,12 +1,11 @@
 import { FaArrowRight } from "react-icons/fa";
 import { IoIosMenu } from "react-icons/io";
-
 import logo from "@/assets/logosaas.png";
 import Image from "next/image";
 import MenuIcon from "@/assets/menu.svg";
 const Header = () => {
   return (
-    <header className="sticky top-0">
+    <header className="sticky top-0 backdrop-blur-md z-20">
       <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
         <p className="text-white/60 hidden md-block">
           الأولى في المملكة في خدمات الأعمال
