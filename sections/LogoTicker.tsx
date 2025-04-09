@@ -1,26 +1,33 @@
-import acmeLogo from "@/assets/logo-acme.png";
-import quantumLogo from "@/assets/logo-quantum.png";
-import echoLogo from "@/assets/logo-echo.png";
-import celestialLogo from "@/assets/logo-celestial.png";
-import pulseLogo from "@/assets/logo-pulse.png";
-import apexLogo from "@/assets/logo-apex.png";
-import Image from "next/image";
+import { TbTransactionDollar, TbWorldSearch } from "react-icons/tb";
+import { GiDiploma } from "react-icons/gi";
+import { MdBusiness } from "react-icons/md";
+
 const LogoTicker = () => {
   return (
-    <div className="py-8 md:py-12 bg-white">
-      <div className="container ">
+    <div className="relative md:py-12 bg-white">
+      <div className="container absolute -top-16">
         <div className="justify-center flex overflow-hidden [mask-image:linear-gradient(to-right,transparent,black,transparent)]">
-          <div className="flex gap-14 flex-none">
-            <Image src={acmeLogo} alt="acmeLogo" className="h-8 w-auto" />
-            <Image src={quantumLogo} alt="quantumLogo" className="h-8 w-auto" />
-            <Image src={echoLogo} alt="echoLogo" className="h-8 w-auto" />
-            <Image
-              src={celestialLogo}
-              alt="celestialLogo"
-              className="h-8 w-auto"
-            />
-            <Image src={pulseLogo} alt="pulseLogo" className="h-8 w-auto" />
-            <Image src={apexLogo} alt="apexLogo" className="h-8 w-auto" />
+          <div className="flex gap-20 flex-none">
+            <div className="border  border-amber-950">
+              <MdBusiness className="h-32 w-auto text-gray-500" />
+
+              <h2></h2>
+            </div>
+            <div>
+              <GiDiploma className="h-32 w-auto text-gray-500" />
+
+              <h2></h2>
+            </div>
+            <div>
+              <TbWorldSearch className="h-32 w-auto text-gray-500" />
+
+              <h2></h2>
+            </div>
+            <div>
+              <TbTransactionDollar className="h-32 w-auto text-gray-500" />
+
+              <h2></h2>
+            </div>
           </div>
         </div>
       </div>

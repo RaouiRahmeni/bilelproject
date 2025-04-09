@@ -26,36 +26,36 @@ const Header = () => {
             <IoIosMenu className="h-5 w-5 md:hidden" />
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
               <a
-                className="border border-transparent hover:border-black hover:border-x-0 px-4 py-2  font-medium inline-flex justify-center tracking-tight"
+                className="border border-transparent hover:border-black hover:border-x-transparent px-4 py-2  font-medium inline-flex justify-center tracking-tight"
                 href=""
               >
                 Home
               </a>
               <a
-                className="border border-transparent hover:border-black hover:border-x-0 px-4 py-2  font-medium inline-flex justify-center tracking-tight"
+                className="border border-transparent hover:border-black hover:border-x-transparent px-4 py-2  font-medium inline-flex justify-center tracking-tight"
                 href=""
               >
                 About us
               </a>
               <a
-                className="border border-transparent hover:border-black hover:border-x-0 px-4 py-2  font-medium inline-flex justify-center tracking-tight"
+                className="border border-transparent hover:border-black hover:border-x-transparent px-4 py-2  font-medium inline-flex justify-center tracking-tight"
                 href=""
               >
                 Help center
               </a>
               <a
-                className="border border-transparent hover:border-black hover:border-x-0 px-4 py-2  font-medium inline-flex justify-center tracking-tight"
+                className="border border-transparent hover:border-black hover:border-x-transparent px-4 py-2  font-medium inline-flex justify-center tracking-tight"
                 href=""
               >
                 Packages
               </a>
               <a
-                className="border border-transparent hover:border-black hover:border-x-0 px-4 py-2  font-medium inline-flex justify-center tracking-tight"
+                className="border border-transparent hover:border-black hover:border-x-transparent px-4 py-2  font-medium inline-flex justify-center tracking-tight"
                 href=""
               >
                 Services
               </a>
-              <button className="bg-transparent hover:bg-black border border-black text-black hover:text-white transition delay-150 duration-200 hover:cursor-pointer px-4 py-2 rounded-lg font-medium inline-flex justify-center tracking-tight">
+              <button className="bg-transparent hover:bg-black border border-black text-black hover:text-white transition duration-200 hover:cursor-pointer px-4 py-2 rounded-lg font-medium inline-flex justify-center tracking-tight">
                 Request a Quote
               </button>
             </nav>
