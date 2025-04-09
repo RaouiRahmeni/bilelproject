@@ -19,19 +19,44 @@ const Header = () => {
           <FaArrowRight className="h-4 w-4 inline-flex justify-center items-center" />
         </div>
       </div>
-      <div className="py-5">
+      <div className="p-5">
         <div className="container">
           <div className="flex items-center justify-between">
             <Image src={logo} alt="bilel service" height={40} width={40} />
             <IoIosMenu className="h-5 w-5 md:hidden" />
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
-              <a href="">about</a>
-              <a href="">Featuers</a>
-              <a href="">customers</a>
-              <a href="">Updates</a>
-              <a href="">Help</a>
-              <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex justify-center tracking-tight">
-                ask for service
+              <a
+                className="border border-transparent hover:border-black hover:border-x-0 px-4 py-2  font-medium inline-flex justify-center tracking-tight"
+                href=""
+              >
+                Home
+              </a>
+              <a
+                className="border border-transparent hover:border-black hover:border-x-0 px-4 py-2  font-medium inline-flex justify-center tracking-tight"
+                href=""
+              >
+                About us
+              </a>
+              <a
+                className="border border-transparent hover:border-black hover:border-x-0 px-4 py-2  font-medium inline-flex justify-center tracking-tight"
+                href=""
+              >
+                Help center
+              </a>
+              <a
+                className="border border-transparent hover:border-black hover:border-x-0 px-4 py-2  font-medium inline-flex justify-center tracking-tight"
+                href=""
+              >
+                Packages
+              </a>
+              <a
+                className="border border-transparent hover:border-black hover:border-x-0 px-4 py-2  font-medium inline-flex justify-center tracking-tight"
+                href=""
+              >
+                Services
+              </a>
+              <button className="bg-transparent hover:bg-black border border-black text-black hover:text-white transition delay-150 duration-200 hover:cursor-pointer px-4 py-2 rounded-lg font-medium inline-flex justify-center tracking-tight">
+                Request a Quote
               </button>
             </nav>
           </div>

@@ -7,27 +7,21 @@ import apexLogo from "@/assets/logo-apex.png";
 import Image from "next/image";
 const LogoTicker = () => {
   return (
-    <div>
-      <div className="container">
-        <div className="flex gap-14 flex-none">
-          <Image src={acmeLogo} alt="acmeLogo" className="logo-ticker-image" />
-          <Image
-            src={quantumLogo}
-            alt="quantumLogo"
-            className="logo-ticker-image"
-          />
-          <Image src={echoLogo} alt="echoLogo" className="logo-ticker-image" />
-          <Image
-            src={celestialLogo}
-            alt="celestialLogo"
-            className="logo-ticker-image"
-          />
-          <Image
-            src={pulseLogo}
-            alt="pulseLogo"
-            className="logo-ticker-image"
-          />
-          <Image src={apexLogo} alt="apexLogo" className="logo-ticker-image" />
+    <div className="py-8 md:py-12 bg-white">
+      <div className="container ">
+        <div className="justify-center flex overflow-hidden [mask-image:linear-gradient(to-right,transparent,black,transparent)]">
+          <div className="flex gap-14 flex-none">
+            <Image src={acmeLogo} alt="acmeLogo" className="h-8 w-auto" />
+            <Image src={quantumLogo} alt="quantumLogo" className="h-8 w-auto" />
+            <Image src={echoLogo} alt="echoLogo" className="h-8 w-auto" />
+            <Image
+              src={celestialLogo}
+              alt="celestialLogo"
+              className="h-8 w-auto"
+            />
+            <Image src={pulseLogo} alt="pulseLogo" className="h-8 w-auto" />
+            <Image src={apexLogo} alt="apexLogo" className="h-8 w-auto" />
+          </div>
         </div>
       </div>
     </div>
