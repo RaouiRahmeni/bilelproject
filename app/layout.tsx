@@ -8,7 +8,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Bilel Service",
+  title: "Mada for Business",
   description: "description",
 };
 

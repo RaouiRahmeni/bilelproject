@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="container">
         <div className="md:flex items-center">
           <div className="md:w-[478px] ms-16">
-            <div className="tag">Lorem ipsum, dolor sit</div>
+            <div className="tag">Ryada for Business</div>
             <h1 className="text-5xl md:text-4xl font bold tracking-tighter bg-gradient-to-b from-black to-[#0d3dff] text-transparent bg-clip-text mt-6">
               One of leading company in business services
             </h1>
@@ -38,7 +38,7 @@ const Hero = () => {
               alt="cylinderImage"
               width={220}
               height={220}
-              className="hidden md:block -top-8 -left-32 md:absolute    "
+              className="hidden md:block -top-8 -left-32 md:absolute"
             />
             <Image
               src={noodleImage}
